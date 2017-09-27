@@ -9,7 +9,8 @@
 #include <stdio.h>
 
 int main() {
-    int nOne, nTwo, sum, prod, diff;
+    int nOne, nTwo, sum, prod;
+    float diff;
     printf("Enter number one: \n");
     scanf("%i", &nOne);
     printf("Enter number two: \n");
@@ -19,7 +20,7 @@ int main() {
     prod=nOne*nTwo;
     diff=nOne/nTwo;
     
-    printf("The sum is equal to: %sum", &sum);
+    printf("La somme vaut: %i \n le produit vaut: %i \n Et la différence est de: %f \n", sum, prod, diff);
     
     return 0;
 }
