@@ -10,7 +10,7 @@
 
 int main() {
     int nOne, nTwo, sum, prod;
-    float diff;
+    double diff;
     printf("Enter number one: \n");
     scanf("%i", &nOne);
     printf("Enter number two: \n");
@@ -18,7 +18,7 @@ int main() {
     
     sum=nOne+nTwo;
     prod=nOne*nTwo;
-    diff=nOne/nTwo;
+    diff=nOne/(float)nTwo;
     
     printf("La somme vaut: %i \n le produit vaut: %i \n Et la différence est de: %f \n", sum, prod, diff);
     
