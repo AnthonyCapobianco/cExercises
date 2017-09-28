@@ -36,7 +36,7 @@ int main() {
     totNetRevenue = totGrossRevenue - totKeepRate;
     
     //print the result to the user.
-    printf("Le salaire total horaire brut est de: %f \n Le montant de la retenue est de: %21f \n Le salaire net total est de: %f \n", totGrossRevenue, totKeepRate, totNetRevenue);
+    printf("Le salaire total horaire brut est de: %f \n Le montant de la retenue est de: %f \n Le salaire net total est de: %f \n", totGrossRevenue, totKeepRate, totNetRevenue);
     
 
     return 0;
