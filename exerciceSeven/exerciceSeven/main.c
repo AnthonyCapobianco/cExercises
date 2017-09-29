@@ -18,7 +18,7 @@ int main() {
     printf("Numérateur? \n");
     scanf("%i", &nOne);
     printf("Dénomintaeur\n");
-    scanf("%i", & nTwo);
+    scanf("%i", &nTwo);
     if (nTwo != 0){
     }else{
         printf("Le dénominateur ne peut pas être égale à zéro, veillez entrer un dénominateur valide: \n");
