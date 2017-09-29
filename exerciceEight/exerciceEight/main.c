@@ -28,7 +28,9 @@ int main() {
     meanNotesTwenty = (noteOne + noteTwo + noteThree)/3;
     meanNotesHundred = meanNotesTwenty*5;
     
-    printf("La moyenne sur 20 est de: %f \n La moyenne sur 100 est de: %f \n",meanNotesTwenty,meanNotesHundred);
+    //Affiche le résultat
+    printf("La moyenne sur 20 est de: %f \nLa moyenne sur 100 est de: %f \n",meanNotesTwenty,meanNotesHundred);
     
+
     return 0;
 }
